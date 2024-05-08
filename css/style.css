@@ -52,3 +52,48 @@ h3 {
     font-size: 22px;
     clear: both;
 }
+
+.btn-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    background-color: #354357;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: purple;
+}
+
+#ac-btn {
+    margin-left: -200px;
+}
+
+#division-btn {
+    position: absolute;
+    right: 14px;
+}
+
+#zero-btn, #equals-btn {
+    width: 120px;
+}
+
+#ac-btn, #division-btn, #multiplication-btn, #minus-btn, #plus-btn, #equals-btn, #dot-btn, #zero-btn {
+    font-weight: 300;
+    font-size: 20px;
+}
