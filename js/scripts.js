@@ -1,7 +1,7 @@
 class Calculator {
     constructor(){
-        this.upperValue  = document.querySelector('#upper-number');
-        this.resultValue = document.querySelector('#result-number');
+        this.upperValue  = document.querySelector('#upper-number'); // seleciona elementos HTML com base em um seletor CSS
+        this.resultValue = document.querySelector('#result-number'); // seleciona elementos HTML com base em um seletor CSS
         this.reset       = 0;
     }
 
